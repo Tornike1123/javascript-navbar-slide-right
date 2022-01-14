@@ -5,6 +5,7 @@ button.addEventListener("click", function(e){
     e.preventDefault();
   
     butt2.classList.toggle('show')
+    button.classList.toggle('show')
 
   })
   
