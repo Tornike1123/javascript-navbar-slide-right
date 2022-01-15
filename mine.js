@@ -12,13 +12,13 @@ button.addEventListener("click", function(e){
 
 
   let buts = document.querySelector('#butt');
-  let buts2 = document.querySelector(".fa-times");
+  let buts2 = document.querySelector(".fa-bars");
 
   buts.onclick = function(){
-    if(buts2.classList.contains("fa-times")){
-      buts2.classList.replace("fa-times","fa-bars");
-    }else{
+    if(buts2.classList.contains("fa-bars")){
       buts2.classList.replace("fa-bars","fa-times");
+    }else{
+      buts2.classList.replace("fa-times","fa-bars");
     }
   }
 
